@@ -22,6 +22,18 @@
       echo strlen($txt);
       ?>
 
+      <?php
+        /* creation variable bad words */
+    
+        $badword = $_GET['badword'];
+      ?>
+      <?php
+      echo str_replace($badword,"*
+      ", $txt );
+      ?>
+
+
+
      
 
 
