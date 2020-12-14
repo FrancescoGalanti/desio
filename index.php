@@ -7,9 +7,11 @@
 </head>
 <body>
 
+
+
     <?php
-      // casa //
-     echo "paolo";
+     /* variable text */
+     $txt = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos libero enim debitis rem distinctio. Veniam libero nam aperiam sit possimus, et eligendi eius placeat amet, soluta labore beatae, architecto accusantium!";
      
      ?>
 </body>
