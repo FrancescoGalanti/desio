@@ -25,12 +25,14 @@
       <?php
         /* creation variable bad words */
     
-        $badword = $_GET['badword'];
+        $badword = $_GET['word'];
       ?>
       <?php
       echo str_replace($badword,"*
       ", $txt );
       ?>
+       <!-- link to new page to estrapole the value in the endpoint query word -->
+      <a href="./index-second.php?word=badword">see the text</a>
 
 
 
